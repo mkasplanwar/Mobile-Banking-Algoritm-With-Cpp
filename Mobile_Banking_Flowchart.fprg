@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mkasp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-06-19 04:05:08 PM"/>
+        <attribute name="created" value="bWthc3A7TUtBU1BMQU5XQVI7MjAyNC0wNi0xOTswMTo1Mjo1NyBQTTsyNjYx"/>
+        <attribute name="edited" value="bWthc3A7TUtBU1BMQU5XQVI7MjAyNC0wNi0xOTswNDowNTowOCBQTTsxOzI3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="" type="Integer" array="False" size=""/>
+            <do expression="login == &quot;y&quot;">
+                <output expression="&quot;Menu Utama&quot;" newline="True"/>
+                <output expression="&quot;Masukkan Nomor Kartu &quot;" newline="True"/>
+                <input variable="nomorkartu"/>
+                <output expression="&quot;Masukkan Kode Akses &quot;" newline="True"/>
+                <input variable="kodeakses"/>
+                <if expression="">
+                    <then>
+                        <output expression="&quot;Menu Login&quot;" newline="True"/>
+                        <do expression="Transaksi == &quot;y&quot;">
+                            <output expression="" newline="True"/>
+                            <output expression="&quot;Apakah Anda Ingin Transaksi Lagi&quot;" newline="True"/>
+                        </do>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;Apakah Anda Ingin Login Lagi&quot;" newline="True"/>
+            </do>
+            <output expression="&quot;Transaksi Selesai&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
